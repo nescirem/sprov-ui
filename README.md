@@ -1,9 +1,9 @@
 # sprov-ui
  一个支持多协议多用户的v2ray Web面板
- 
+
 # 详细教程
 https://blog.sprov.xyz/2019/02/09/sprov-ui/
- 
+
 # 支持的功能
  - https 访问面板
  - 系统运行状态监控
@@ -11,7 +11,7 @@ https://blog.sprov.xyz/2019/02/09/sprov-ui/
  - 禁用、启用单个账号
  - 支持设置监听的 IP（多 IP 服务器下）
  - 流量统计（支持所有协议）
- 
+
 ## 支持的 v2ray 协议
  - vmess（v2ray 特色）
  - shadowsocks（经典 ss）
@@ -25,7 +25,7 @@ https://blog.sprov.xyz/2019/02/09/sprov-ui/
  - kcp + 伪装
  - ws + 伪装 + tls
  - http/2 + 伪装 + tls
- 
+
 # 运行截图
 ![1.png](1.png)
 ![2.png](2.png)
@@ -43,12 +43,9 @@ https://blog.sprov.xyz/2019/02/09/sprov-ui/
 >以下两条命令皆可，两者是一样的，只需要运行一个，如果其中一个有错误，可以运行另外一个。
 
 >请务必使用 root 用户运行！
+><span style="color: red;">注意</span>：下载链接被改动到本fork，原代码库已被remove.
 ```
-wget -O /usr/bin/sprov-ui -N --no-check-certificate https://blog.sprov.xyz/sprov-ui.sh && chmod +x /usr/bin/sprov-ui && sprov-ui
-
-```
-```
-wget -O /usr/bin/sprov-ui -N --no-check-certificate https://github.com/sprov065/sprov-ui/raw/master/sprov-ui.sh && chmod +x /usr/bin/sprov-ui && sprov-ui
+wget -O /usr/bin/sprov-ui -N --no-check-certificate https://github.com/nescirem/sprov-ui/raw/master/sprov-ui.sh && chmod +x /usr/bin/sprov-ui && sprov-ui
 
 ```
 
